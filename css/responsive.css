@@ -1,0 +1,97 @@
+/*Medida para tablets horizontal*/
+@media screen and (max-width:1024px){
+    header #nav ul li{
+        background-color: rgb(56, 56, 56);
+        padding: 10px;
+    }
+
+    
+    header #nav__ul li:hover{
+        background-color: rgb(102, 102, 102);
+    }
+
+    header #nav__ul li a{
+        font-size: 0.8rem;
+        
+    }
+
+    #description__p{
+        font-size: .9rem;
+    }
+
+    
+    #ft_widgets .widget h3{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 1.1rem;
+   
+    }
+
+    #ft_widgets .widget ul li a{
+        font-family: 'Raleway', sans-serif;
+        font-size: .8rem;
+    }
+
+    
+    footer #ft_widgets .widget{
+        width: 50%;
+        padding: 0px 50px;
+    }
+    
+
+    footer #ft_widgets .widget ul li{
+        border-bottom: solid 2px rgb(56, 56, 56);
+    }
+
+    #main{
+        justify-content: center;
+    }
+
+    #main article{
+        width: 80%;
+    }
+
+}
+
+
+/*Medidas Moviles*/
+
+@media screen and (max-width:745px){
+
+    header #nav ul{
+        clear: both;
+        text-align: center;
+    }
+
+    header #nav ul li{
+        background-color: rgba(134, 134, 134,.1);
+        padding: 10px;
+        margin: 5px;
+    }
+
+    header #logo{
+        width: 100%;
+        background-color: rgba(134, 134, 134,.1);
+    }
+    header #nav{
+        width: 100%;
+    }
+
+    #description__p{
+        font-size: .8rem;
+    }
+    
+    footer #ft_widgets .widget{
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    footer #ft_widgets .widget ul li{
+        border-bottom: solid 2px rgb(56, 56, 56);
+    }
+
+    #main article{
+        width: 95%;
+    }
+
+}
